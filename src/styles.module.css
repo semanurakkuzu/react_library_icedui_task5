@@ -1,9 +1,65 @@
-/* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
+button {
+  margin: 1em;
   padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+  border: 1px solid #b3b9b9;
+  font-size: 1.2em;
   text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  margin: 1em;
+  padding: 0.5em;
+  border: 1px solid #ffffff;
+  font-size: 1.2em;
+  text-align: center;
+  background-image: linear-gradient(#00e1ff, #ffffff);
+ 
+}
+
+.primary {
+  border: 1px solid #00e1ff;
+  background-color: rgb(255, 255, 255);
+ 
+}
+
+.primary:hover {
+  border: 1px solid #ffffff;
+  text-align: center;
+  background-color: #00e1ff;
+  background-image: linear-gradient(#00e1ff, #ffffff);
+  
+}
+
+.dashed {
+  border: 1px dashed #00e1ff;
+}
+
+.dashed:hover {
+  border: 1px dashed #808080;
+}
+
+.text {
+  border: none;
+  color: #808080
+}
+
+.text:hover {
+  background-color: #eee;
+  background-image: linear-gradient(#00e1ff, #ffffff);
+  border: none;
+}
+
+.link {
+  border: none;
+  color: #00e1ff;
+}
+
+.link:hover {
+  border: none;
+  background-color:#ffffff;
+  background-image: none;
 }
