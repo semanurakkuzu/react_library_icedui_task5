@@ -1,6 +1,6 @@
 # icedui
 
-Name change has been made. Use this name for search: icedbuttonui
+Name change has been made. Use this name for search: `icedbuttonui`
 
 > Made with create-react-library
 
